@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  --font-heading: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+[data-font="fraunces"] {
+  --font-heading: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+[data-font="dm-serif"] {
+  --font-heading: 'DM Serif Display', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+[data-font="playfair"] {
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Manrope', system-ui, -apple-system, sans-serif;
+}
+
+[data-font="plus-jakarta"] {
+  --font-heading: 'Fraunces', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-body);
+    background-color: #FCFAF6;
+    color: #191817;
+  }
+  body {
+    background-color: #FCFAF6;
+    color: #191817;
+    font-family: var(--font-body);
+  }
+}
+
+.font-serif-luxury {
+  font-family: var(--font-heading);
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FCFAF6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E7DED4;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B45F42;
+}
+
+/* Palette utility colors according to definitive prompt */
+/* Sfondo principale avorio: #FCFAF6 */
+/* Nero tipografico: #191817 */
+/* Terracotta per pulsanti e dettagli: #B45F42 */
+/* Blu-grigio per i testi secondari: #536176 */
+/* Beige chiaro per bordi e separatori: #E7DED4 */
+/* Bianco: #FFFFFF */

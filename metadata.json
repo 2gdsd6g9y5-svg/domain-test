@@ -1,0 +1,6 @@
+{
+  "name": "Italia Immigrazione - Assistenza e Orientamento Immigrazione Milano",
+  "description": "Sito professionale per Italia Immigrazione: orientamento pratiche, permessi di soggiorno, assistenza multilingue e gestione del team a Milano.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
